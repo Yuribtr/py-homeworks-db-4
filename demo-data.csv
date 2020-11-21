@@ -1,6 +1,6 @@
 track;genre;musician;album;length;album_year;collection;collection_year
 Track #1;pop;Marta;Crazy cherry;120;2009;Fruits 2009;2010
-Track #2;folk;Peter;Curious plum;312;2020;Fruits 2020;2021
+Track #2;folk;Peter First;Curious plum;312;2020;Fruits 2020;2021
 Track #3;pop;Marta;Crazy cherry;158;2009;Fruits 2009;2010
 Track #4;dubstep;Ann;Calm grape;183;2018;Fruits 2018;2019
 Track #5;folk;Peter;Curious plum;289;2019;Fruits 2019;2020
@@ -14,7 +14,7 @@ Track #12;pop;Kate;Glad dates;173;2012;Fruits 2012;2013
 Track #13;metal;Mary;Happy berry;384;2011;Fruits 2011;2012
 Track #14;rock;Steve;Funny orange;213;2007;Fruits 2007;2008
 Track #15;rock;Bill;Sad peach;201;2020;Fruits 2020;2021
-Track #16;dubstep;Ann;Calm grape;134;2019;Fruits 2019;2020
+Trame #16;dubstep;Ann;Calm grape;134;2019;Fruits 2019;2020
 Track #17;pop;Kate;Glad dates;187;2016;Fruits 2016;2017
 Track #18;pop;Kate;Glad dates;349;2018;Fruits 2018;2019
 Track #19;pop;Marta;Crazy cherry;291;2017;Fruits 2017;2018
@@ -33,4 +33,4 @@ Track #31;rock;John;Pensive mango;102;2014;Fruits 2014;2015
 Track #32;rock;John;Pensive mango;132;2009;Fruits 2009;2010
 Track #33;dubstep;Ann;Calm grape;213;2019;Fruits 2019;2020
 Track #34;rock;Bill;Sad peach;321;2010;Fruits 2010;2011
-Track #35;rock;Bill;Sad peach;241;2015;Fruits 2015;2016
+Trame #35;rock;Bill;Sad peach;241;2015;Fruits 2015;2016
