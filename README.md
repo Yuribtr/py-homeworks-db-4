@@ -1,5 +1,14 @@
 # Домашнее задание к лекции «Select-запросы, выборки из одной таблицы»
 
+## Solution
+
+This converter reads CSV and put data in normalized Postgres DB (3NF) as per scheme "py-homeworks-db-3.1.jpg"
+![alt text](https://raw.githubusercontent.com/Yuribtr/py-homeworks-db-4/master/py-homeworks-db-3.1.jpg?raw=true)
+- made sample data in CSV format, that has plain structure
+- made queries for creating or cleanup tables
+- made queries for inserting data to tables
+- made queries for simple data select
+
 ## Задание 1
 
 Заполните базу данных из предыдущего домашнего задания. В ней должно быть:
@@ -24,11 +33,3 @@
 6. название треков, которые содержат слово "мой"/"my". 
 
 Результатом работы будет 3 файла (с INSERT, SELECT запросами и CREATE запросами из предыдущего задания) в формате .sql (или .py/.ipynb, если вы будете писать запросы с использованием SQLAlchemy).
-
-## Solution
-
-This converter reads CSV and put data in normalized Postgres DB (3NF) 
-- made sample data in CSV format, that has plain structure
-- made queries for creating or cleanup tables
-- made queries for inserting data to tables
-- made queries for simple data select
