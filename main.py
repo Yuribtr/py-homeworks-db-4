@@ -64,13 +64,13 @@ res = connection.execute(query.format(','.join({f"('{x}', '{y}')" for x, y in al
 print(f'Inserted {res.rowcount} albums.')
 
 print('\nLinking musicians with albums...')
-# assume that musicians names ar unique
-albums_musicians = {x['musician']: x['album'] for x in DATA}
+# assume that musicians + album has to be unique
+albums_musicians = {x['musician'] + x['album']: [x['musician'], x['album']] for x in DATA}
 query = read_query('queries/insert-album-musician.sql')
 # this query can't be run in batch, so execute one by one
 res = 0
-for key, value in albums_musicians.items():
-    res += connection.execute(query.format(value, key)).rowcount
+for key, values in albums_musicians.items():
+    res += connection.execute(query.format(values[1], values[0])).rowcount
 print(f'Inserted {res} connections.')
 
 print('\nAdding tracks...')
