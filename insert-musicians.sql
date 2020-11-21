@@ -1,0 +1,1 @@
+insert into musicians(name) values {};
